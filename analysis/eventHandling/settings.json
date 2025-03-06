@@ -1,0 +1,29 @@
+{
+    "waveform":{
+        "thresholdADC":24,
+        "timeTick":0.5
+    },
+    "hit":{
+        "voxelSeparation":20,
+        "minPeakSeparation":20
+    },
+    "voxel":{
+        "driftVelocity":1.55,
+        "timeTick":0.5
+    },
+    "cluster":{
+        "eps":120,
+        "minNumberOfVoxels":3
+    },
+    "strip":{
+        "nCollChannels":48,
+        "nInd1Channels":40,
+        "nInd2Channels":40,
+        "collPitch": 5,
+        "indPitch": 7.5,
+        "channelAngle":30,
+        "xCordErr":2.5,
+        "yCordErr":1.5,
+        "zCordErr":1.5
+    }
+}
